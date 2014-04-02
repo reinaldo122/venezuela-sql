@@ -1,10 +1,9 @@
 venezuela-sql
 =============
 
-Base de datos de la división político territorial de Venezuela. Se incluyen estados, ciudades, municipios y parroquias de Venezuela en formato .sql.
+Base de datos de la división político territorial de Venezuela. Se incluyen estados, ciudades, municipios y parroquias de Venezuela en formato .sql. La BD está adaptada para trabajar con Rails.
 
-La lista de estados tiene su código ISO 3166-2 correspondiente.
-
+Para que trabaje con Rails, debes definir en los modelos el nombre de la tabla usando `self.table_name = "paises"` por ejemplo. Esto debes hacerlo en los modelos necesarios.
 
 Referencias
 -----------
@@ -14,7 +13,12 @@ Referencias
 
 ###Contacto
 
-Para colaborar o hacer correcciones, puedes contactarme:
+Puedes contactarme en Twitter: [@ReyDiazxD](https://twitter.com/ReyDiazxD)
+
+Este repositorio es un fork de Mary de Nóbrega.
+[Repositorio Original](https://github.com/marydn/venezuela-sql)
+
+Para colaborar o hacer correcciones, puedes contactarla:
 
 Web: http://marydenobrega.com/
 E-mail: denobrega.mary@gmail.com
